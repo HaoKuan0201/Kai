@@ -1,6 +1,6 @@
 # 管浩鈞 | Hao-Chun Kuan | 網頁全端工程師 | Full-Stack Web Developer
 
-**5 年全端開發經驗** | 擅長使用 .NET Core 與 Vue 3 做現代化開發。
+**5 年全端開發經驗** | 擅長使用 Vue 3 與 .NET Core 做現代化網頁開發。
 
 ---
 
