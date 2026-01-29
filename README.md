@@ -87,9 +87,11 @@
 
 ## 🧑‍💻 額外專案 (純前端搭配 Supabase)
 
-- 作品集：[Kaizouki](https://haokuan0201.github.io/Kaizouki/)
-- 個人財務管理平台：[KaiBV](https://haokuan0201.github.io/KaiBV/)
-- 旅遊規劃助手：[KaiGO](https://haokuan0201.github.io/KaiGO/)
+<ul>
+  <li>作品集：<a href="https://haokuan0201.github.io/Kaizouki/" target="_blank">Kaizouki</a></li>
+  <li>個人財務管理平台：<a href="https://haokuan0201.github.io/KaiBV/" target="_blank">KaiBV</a></li>
+  <li>旅遊規劃助手：<a href="https://haokuan0201.github.io/KaiGO/" target="_blank">KaiGO</a></li>
+</ul>
 
 ---
 
