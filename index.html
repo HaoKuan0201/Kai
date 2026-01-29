@@ -14,7 +14,7 @@
     <header>
         <h1>管浩鈞 | Hao-Chun Kuan</h1>
         <div class="subtitle">網頁全端工程師 | Full-Stack Web Developer</div>
-        <p><strong>LV. 5 全端開發者</strong> - 擅長使用 .NET Core 與 Vue 3 做現代化開發。</p>
+        <p><strong>LV. 5 全端開發者</strong> - 擅長使用 Vue 3 與 .NET Core 做現代化網頁開發。</p>
     </header>
 
     <div class="stats-grid">
@@ -77,7 +77,7 @@
         </div>
     </section>
     
-    <hr style="border: 2px dashed #ccc; margin: 30px 0;">
+    <hr style="border: 2px dashed #4a5568; margin: 30px 0;">
 
     <section>
         <h2>💼 工作經歷</h2>
@@ -89,7 +89,7 @@
             <div class="project-card">
                 <span class="highlight-tag">影響力最高</span>
                 <h4>1. 跨國 e-Invoice API Gateway (2024)</h4>
-                <p><strong>專案描述：</strong>因應馬來西亞政府稅務政策，實作 API Gateway 整合高雄廠的馬來西亞分區與馬來西亞廠的發票數據。</p>
+                <p><strong>專案描述：</strong>因應馬來西亞政府稅務政策,實作 API Gateway 整合高雄廠的馬來西亞分區與馬來西亞廠的發票數據。</p>
                 <ul>
                     <li>自主開發 API Gateway 對接馬來西亞政府（LHDN）系統，取代 Oracle 外部解決方案，每年為公司節省數十萬美金的維護費用。</li>
                     <li>實作複雜的數位簽章功能，確保高雄廠與馬來西亞廠的電子發票傳輸符合當地法規。</li>
@@ -175,30 +175,30 @@
 
 <style>
 :root {
-    --primary-bg: #212529;
-    --window-bg: #ffffff;
-    --pixel-border: #000;
+    --primary-bg: #0a0e27;
+    --window-bg: #1a1d2e;
+    --pixel-border: #4a5568;
 
-    --accent-color: #4caf50;
-    --mana-color: #2196f3;
+    --accent-color: #66bb6a;
+    --mana-color: #42a5f5;
 
-    --accent-red: #e53935;
-    --accent-blue: #1e88e5;
-    --accent-gold: #fbc02d;
-    --accent-green: #43a047;
+    --accent-red: #ef5350;
+    --accent-blue: #42a5f5;
+    --accent-gold: #ffd54f;
+    --accent-green: #66bb6a;
 
-    --text-main: #333;
-    --text-muted: #777;
+    --text-main: #e2e8f0;
+    --text-muted: #a0aec0;
 }
 
 /* ===== 全域 ===== */
 body {
     background-color: var(--primary-bg);
     background-image:
-        linear-gradient(45deg, #2c3e50 25%, transparent 25%),
-        linear-gradient(-45deg, #2c3e50 25%, transparent 25%),
-        linear-gradient(45deg, transparent 75%, #2c3e50 75%),
-        linear-gradient(-45deg, transparent 75%, #2c3e50 75%);
+        linear-gradient(45deg, #16213e 25%, transparent 25%),
+        linear-gradient(-45deg, #16213e 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #16213e 75%),
+        linear-gradient(-45deg, transparent 75%, #16213e 75%);
     background-size: 40px 40px;
     background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
 
@@ -215,11 +215,11 @@ body {
     max-width: 900px;
     width: 100%;
     background: var(--window-bg);
-    border: 4px solid #000;
+    border: 4px solid #2d3748;
     box-shadow:
-        0 4px 0 #000,
-        4px 0 0 #000,
-        8px 8px 0 rgba(0,0,0,0.25);
+        0 4px 0 #1a202c,
+        4px 0 0 #1a202c,
+        8px 8px 0 rgba(0,0,0,0.5);
     padding: 40px;
 }
 
@@ -227,6 +227,7 @@ body {
 h1, h2, h3, h4 {
     font-family: 'Lihua Font', monospace;
     text-transform: uppercase;
+    color: var(--text-main);
 }
 
 h1 {
@@ -237,7 +238,7 @@ h1 {
 .subtitle {
     font-size: 14px;
     color: var(--text-muted);
-    border-bottom: 4px double #000;
+    border-bottom: 4px double #4a5568;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -247,10 +248,11 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
-    background: #f4f4f4;
-    border: 2px solid #000;
+    background: #2d3748;
+    border: 2px solid #4a5568;
     padding: 15px;
     margin-bottom: 30px;
+    color: var(--text-main);
 }
 
 /* ===== 技能庫存 ===== */
@@ -261,22 +263,25 @@ h1 {
 }
 
 .item-slot {
-    background: rgba(0,0,0,0.35);
-    border: 2px solid #555;
+    background: rgba(45, 55, 72, 0.6);
+    border: 2px solid #4a5568;
     padding: 15px;
     transition: all 0.2s ease;
+    color: var(--text-main);
 }
 
 .item-slot:hover {
     transform: translateY(-4px);
     border-color: var(--accent-gold);
-    box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+    box-shadow: 4px 4px 0 rgba(255, 213, 79, 0.3);
+    background: rgba(45, 55, 72, 0.8);
 }
 
 .icon {
     font-size: 32px;
     text-align: center;
     margin-bottom: 10px;
+    display: block;
 }
 
 /* ===== 技能標籤 ===== */
@@ -288,14 +293,14 @@ h1 {
 }
 
 .skill-tag {
-    background: #e1f5fe;
-    border: 1px solid #01579b;
+    background: #2c5282;
+    border: 1px solid #4299e1;
     padding: 4px 10px;
     font-size: 13px;
     border-radius: 4px;
     white-space: nowrap;
-    color: #01579b;
-    box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+    color: #90cdf4;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.4);
 }
 
 /* ===== 工作經歷 ===== */
@@ -306,8 +311,8 @@ h1 {
 }
 
 .project-card {
-    background: #fff;
-    border: 2px solid #ddd;
+    background: #2d3748;
+    border: 2px solid #4a5568;
     padding: 15px;
     margin-top: 12px;
     position: relative;
@@ -327,12 +332,23 @@ h1 {
     margin-bottom: 6px;
 }
 
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--accent-gold);
+}
+
 /* ===== Footer ===== */
 footer {
     text-align: center;
     margin-top: 60px;
     font-family: 'Press Start 2P';
     font-size: 12px;
+    color: var(--text-muted);
+}
+
+footer a {
     color: var(--text-muted);
 }
 
