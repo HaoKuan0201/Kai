@@ -205,11 +205,35 @@
     </section>
 
     <footer style="text-align: center; margin-top: 40px; font-family: 'Press Start 2P'; font-size: 10px;">
-        <a href="/cdn-cgi/l/email-protection#4f227e7f787a7a7f790f222e262361213a23612a2b3a613b38" style="text-decoration: none; color: inherit;">
-            &gt; CLICK TO SEND MESSAGE (m1075506) &lt;
-        </a>
-        <div style="margin-top: 10px; font-size: 8px; opacity: 0.6;">INSERT COIN TO START ANYTIME</div>
-    </footer>
+    <span id="copyEmail" style="cursor: pointer; color: inherit; text-decoration: none; display: inline-block;">
+        &gt; CLICK TO COPY EMAIL &lt;
+    </span>
+    
+    <div style="margin-top: 10px; font-size: 8px; opacity: 0.6;">INSERT COIN TO START ANYTIME</div>
+
+    <script>
+        document.getElementById('copyEmail').addEventListener('click', function() {
+            const email = "m1075506@mail.nuk.edu.tw";
+            const originalText = this.innerText;
+            
+            // 執行複製
+            navigator.clipboard.writeText(email).then(() => {
+                // 成功後的 RPG 風格回饋
+                this.innerText = "> MISSION COMPLETE: COPIED! <";
+                this.style.color = "var(--accent-gold)";
+                
+                // 1.5 秒後恢復原狀
+                setTimeout(() => {
+                    this.innerText = originalText;
+                    this.style.color = "inherit";
+                }, 1500);
+            }).catch(err => {
+                console.error('無法複製文字: ', err);
+                alert("複製失敗，請手動複製: " + email);
+            });
+        });
+    </script>
+</footer>
 </div>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
