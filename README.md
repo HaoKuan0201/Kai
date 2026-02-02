@@ -87,7 +87,7 @@
 
 ---
 
-## 🧑‍💻 額外專案 (純前端搭配 Supabase)
+## 🧑‍💻 額外專案
 
 <ul>
   <li>個人財務管理平台：<a href="https://haokuan0201.github.io/KaiBV/" target="_blank">KaiBV</a></li>
