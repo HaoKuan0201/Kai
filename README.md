@@ -7,6 +7,10 @@
 
 ## ⚜️ 冒險者能力值 (Technical Skills)
 
+**AI 應用整合 (AI Application Integration)**
+- LLM API 實務應用
+- Prompt Engineering
+
 **前端**
 
 - Vite 專案開發工具
