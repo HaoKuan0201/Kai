@@ -117,6 +117,5 @@
 
 ## 🔎 近期學習方向
 
-- **AI 技能：** LangGraph, Model Context Protocol, Claude code skills
-- **AI 應用：** n8n, Moltbot, CopilotKit
+- **AI 技能：** LangChain, Skills, MCP, RAG
 - **UI 框架：** React
